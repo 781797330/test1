@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>易能昌数智中台</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="header">
+        <div class="header-left">
+            <div class="logo-group">
+                <div class="logo shanghai-electric">
+                    <div class="logo-circle blue"></div>
+                    <div class="logo-circle green"></div>
+                    <span>上海电气</span>
+                </div>
+                <div class="logo yinengchang">
+                    <div class="logo-icon">
+                        <div class="icon-circle"></div>
+                    </div>
+                    <span>易能昌</span>
+                </div>
+            </div>
+            <h1 class="main-title">易能昌数智中台</h1>
+        </div>
+        <div class="header-right">
+            <div class="header-icon">
+                <i class="fas fa-th"></i>
+                <span>系统中心</span>
+            </div>
+            <div class="header-icon">
+                <i class="fas fa-bell"></i>
+                <span>消息中心</span>
+            </div>
+            <div class="header-icon">
+                <i class="fas fa-user-circle"></i>
+                <span>个人信息</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <!-- 左侧边栏 -->
+        <aside class="sidebar">
+            <div class="sidebar-item active">
+                <span>智能办公</span>
+                <i class="fas fa-cog"></i>
+            </div>
+            <div class="sidebar-item">
+                <span>概算投资</span>
+                <span class="tag pms">PMS</span>
+            </div>
+            <div class="sidebar-item">
+                <span>投标申请</span>
+                <span class="tag pms">PMS</span>
+            </div>
+            <div class="sidebar-item">
+                <span>销售报告</span>
+                <span class="tag pms-oms">PMS/OMS</span>
+            </div>
+            <div class="sidebar-item">
+                <span>创建订单</span>
+                <span class="tag oms">OMS</span>
+            </div>
+            <div class="sidebar-item">
+                <span>合同变更</span>
+                <span class="tag oms">OMS</span>
+            </div>
+        </aside>
+
+        <!-- 主要内容区域 -->
+        <main class="main-content">
+            <!-- 智能助理区域 -->
+            <div class="ai-assistant">
+                <div class="ai-header">
+                    <div class="ai-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="ai-greeting">
+                        <h3>XXX，您好！我是您的智能助理小易</h3>
+                        <p>我整合了多平台智能服务，为您的工作提供增效，我支持文本和语音交流，如需未来满足，请随时反馈</p>
+                    </div>
+                </div>
+
+                <div class="function-buttons">
+                    <button class="func-btn">投标助手</button>
+                    <button class="func-btn">文档问答</button>
+                    <button class="func-btn">PPT生成</button>
+                    <button class="func-btn">录音纪要</button>
+                    <button class="func-btn">写作</button>
+                    <button class="func-btn">翻译</button>
+                </div>
+
+                <div class="chat-input-area">
+                    <input type="text" placeholder="有问题尽管问~" class="chat-input">
+                    <div class="input-actions">
+                        <button class="action-btn"><i class="fas fa-microphone"></i></button>
+                        <button class="action-btn"><i class="fas fa-image"></i></button>
+                        <button class="action-btn"><i class="fas fa-file"></i></button>
+                        <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 底部卡片区域 -->
+            <div class="cards-section">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>待办事项</h3>
+                        <span class="count">共 10 条记录</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="card-content">
+                        <div class="todo-item urgent">
+                            <div class="status-dot red"></div>
+                            <span>待办事项内容(时间不足24小时)</span>
+                            <span class="tag pms">PMS</span>
+                            <span class="time">16:35</span>
+                        </div>
+                        <div class="todo-item urgent">
+                            <div class="status-dot red"></div>
+                            <span>待办事项内容(时间不足24小时)</span>
+                            <span class="tag oms">OMS</span>
+                            <span class="time">14:16</span>
+                        </div>
+                        <div class="todo-item warning">
+                            <div class="status-dot yellow"></div>
+                            <span>待办事项内容(时间剩余3天)</span>
+                            <span class="tag oa">OA</span>
+                            <span class="time">12:45</span>
+                        </div>
+                        <div class="todo-item normal">
+                            <div class="status-dot green"></div>
+                            <span>待办事项内容待办事项内容</span>
+                            <span class="tag pms">PMS</span>
+                            <span class="time">10:24</span>
+                        </div>
+                        <div class="todo-item normal">
+                            <div class="status-dot green"></div>
+                            <span>待办事项内容待办事项内容待办...</span>
+                            <span class="tag oms">OMS</span>
+                            <span class="time">08:30</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>订单追踪</h3>
+                        <span class="count">共 12 条记录</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="card-content">
+                        <div class="order-item">
+                            <span>编号为XXXXXXXXX的订单当前处于</span>
+                            <span class="link">物流发货</span>
+                            <span>阶段</span>
+                        </div>
+                        <div class="order-item">
+                            <span>编号为XXXXXXXXX的订单当前处于</span>
+                            <span class="link">客户签收</span>
+                            <span>阶段</span>
+                        </div>
+                        <div class="order-item">
+                            <span>编号为XXXXXXXXX的订单当前处于</span>
+                            <span class="link">物流发货</span>
+                            <span>阶段</span>
+                        </div>
+                        <div class="order-item">
+                            <span>编号为XXXXXXXXX的订单当前处于</span>
+                            <span class="link">客户签收</span>
+                            <span>阶段</span>
+                        </div>
+                        <div class="order-item">
+                            <span>编号为XXXXXXXXX的订单当前处于</span>
+                            <span class="link">物流发货</span>
+                            <span>阶段</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>智能推荐</h3>
+                        <span class="count">共 16 条记录</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="card-content">
+                        <div class="recommendation-item">
+                            <p>您常于每周五下午处理大客户订单，是否提前生成...</p>
+                        </div>
+                        <div class="recommendation-item">
+                            <p>客户C的合同将到期，建议续约沟通</p>
+                        </div>
+                        <div class="recommendation-item">
+                            <p>根据用户的操作习惯，智能推荐</p>
+                        </div>
+                        <div class="recommendation-item">
+                            <p>学习不同的系统内容，对于高复杂的事情及时提醒</p>
+                        </div>
+                        <div class="recommendation-item">
+                            <p>智能推荐的内容智能推荐的内容</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- 右侧信息栏 -->
+        <aside class="right-sidebar">
+            <div class="chat-history">
+                <div class="history-section">
+                    <h4>今天</h4>
+                    <div class="history-item">历史对话一历史对话一历史对话一...</div>
+                    <div class="history-item">历史对话二历史对话二历史对话二...</div>
+                </div>
+                <div class="history-section">
+                    <h4>昨天</h4>
+                    <div class="history-item">历史对话三历史对话三历史对话三...</div>
+                    <div class="history-item">历史对话四历史对话四历史对话四...</div>
+                    <div class="history-item">历史对话五历史对话五历史对话五...</div>
+                    <div class="history-item">历史对话五历史对话五历史对话五...</div>
+                    <div class="history-item">历史对话五历史对话五历史对话五...</div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
